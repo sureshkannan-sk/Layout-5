@@ -1,0 +1,107 @@
+.header{
+	background-color:khaki;
+}
+.wrapper
+{
+	width:70%;
+	margin:auto;
+}
+.header .header-fc
+{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.header .header-fc .header-logo
+{
+	width:180px;
+	height:60px;
+	background-color:gray;
+	display:flex;
+	align-items:center;
+}
+.header .header-fc .header-name
+{
+	width:180px;
+	height:60px;
+	background-color:gray;
+	display:flex;
+	align-items:center;
+}
+.banner
+{
+		background-color:teal;
+		width:100%;
+		height:500px;
+		display:flex;
+      	align-items:center;
+		text-align:center;
+		font-size:75px;
+		font-family:verdana;
+}
+.portfolio
+{
+	background-color:white;
+}
+.wrapper
+{
+	width:100%;
+	margin:auto;
+}
+.portfolio .portfolio-fc
+{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.portfolio-fc .portfolio-heading
+{
+	width:100%;
+	text-align:center;
+	height:50px;
+	background-color:orange;
+	padding-top:20px;
+	
+}
+.portfolio-fc .image
+{
+	width:30%;
+	height:120px;
+	background-color:gray;
+    text-align:center;
+	padding-top:50px;
+
+}
+.about-fc
+{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.about-fc .about-heading
+{
+	width:100%;
+	text-align:center;
+	height:50px;
+	background-color:pale;
+	padding:10px;
+	margin-top:5px;
+}
+.about-fc .about-text
+{
+	width:50%;
+	height:150px;
+	background-color:lightblue;
+	text-align:center;
+	
+}
+.about-fc .download
+{
+	width:100%;
+	text-align:center;
+	height:50px;
+	background-color:lightblue;
+	padding:10px;
+	border:2px solid white;
+	
+}
